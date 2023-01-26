@@ -11,6 +11,8 @@ body {
   background-color: rgb(12, 19, 17);
   height: 100vh;
   color: #fefefe;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 header {
@@ -51,6 +53,8 @@ form {
   gap: 48px;
   margin-left: 32px;
   overflow-x: auto;
+  scroll-behavior: smooth;
+  cursor: grab;
 }
 
 .days::-webkit-scrollbar {
